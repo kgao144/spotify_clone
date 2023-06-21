@@ -1,3 +1,9 @@
+## Spotify Clone
+
+```
+My first project in Typescript. Replicating the Spotify web application as well as attempting to include other features.
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
