@@ -113,8 +113,19 @@ const Header: React.FC<HeaderProps> = ({
                 '>
                     <>
                         <div>
-                            <Button>
-                                Sign up bitches
+                            <Button className='
+                            '>
+                                Sign Up
+                            </Button>
+                        </div>
+
+                        <div>
+                            <Button className='
+                            px-[30px]
+                            bg-[#e7e7e7]
+                            text-black
+                            '>
+                                Log In
                             </Button>
                         </div>
                     </>
