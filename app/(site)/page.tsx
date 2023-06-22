@@ -8,12 +8,14 @@ export default function Home() {
       bg-neutral-900
       rounded-lg
       h-full
-      w-full
+      w-fill
       overflow-hidden
       overflow-y-auto
-      
+      mx-2
       '> 
-        <Header>
+        <Header className='
+        
+        '>
           Header
         </Header>
       </div>

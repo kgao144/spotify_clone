@@ -24,3 +24,9 @@ body,
   background-color: black;
   color-scheme: dark;
 }
+
+
+.bg-pfp {
+  width: 17rem;
+  background-image: url('../public/pfp.png');
+}

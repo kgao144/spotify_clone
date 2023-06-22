@@ -89,6 +89,19 @@ const Header: React.FC<HeaderProps> = ({
                     transition
                     '>
                         <HiHome className='text-black' size={25}/>
+                        <div className='
+                        
+                        transition
+                        text-black
+                        text-medium
+                        font-semibold
+                        items-center
+                        justify-center
+                        px-2
+                        pt-[4px]
+                        '>
+                            Home
+                        </div>
                     </button>
 
                     <button className='
@@ -121,7 +134,7 @@ const Header: React.FC<HeaderProps> = ({
 
                         <div>
                             <Button className='
-                            px-[30px]
+                            px-[35px]
                             bg-[#e7e7e7]
                             text-black
                             '>
