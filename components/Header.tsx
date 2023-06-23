@@ -26,8 +26,9 @@ const Header: React.FC<HeaderProps> = ({
         <div className={twMerge(`
         h-fit
         bg-gradient-to-b
-        from-emerald-800
-        p-6
+        from-[#00965aa1]
+        px-8
+        py-6
         `,
             className
         )}>
@@ -126,14 +127,22 @@ const Header: React.FC<HeaderProps> = ({
                 '>
                     <>
                         <div>
-                            <Button className='
+                            <Button 
+                            onClick={() => {}}
+                            className='
+                            bg-transparent
+                            text-neutral-300
+                            hover:text-white/100
+                            font-medium
                             '>
                                 Sign Up
                             </Button>
                         </div>
 
                         <div>
-                            <Button className='
+                            <Button 
+                            onClick={() => {}}
+                            className='
                             px-[35px]
                             bg-[#e7e7e7]
                             text-black
@@ -144,9 +153,9 @@ const Header: React.FC<HeaderProps> = ({
                     </>
                 </div>
             </div>
-
+        {children}
         </div>
-    )
+    );
 }
 
 export default Header
