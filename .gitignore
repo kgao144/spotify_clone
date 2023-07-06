@@ -2,6 +2,8 @@
 
 # ignore pass.txt to not commit to github
 pass.txt
+token.txt
+
 
 # dependencies
 /node_modules
